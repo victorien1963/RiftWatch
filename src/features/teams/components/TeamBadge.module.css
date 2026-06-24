@@ -1,0 +1,30 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.18rem;
+  flex: 0 0 auto;
+  border: 1px solid rgba(215, 181, 109, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--rw-text);
+  letter-spacing: 0;
+}
+
+.badge strong {
+  font-weight: 900;
+}
+
+.sm {
+  min-width: 2.9rem;
+  height: 2.25rem;
+  padding: 0 0.45rem;
+  font-size: 0.72rem;
+}
+
+.md {
+  min-width: 3.35rem;
+  height: 2.75rem;
+  padding: 0 0.55rem;
+  font-size: 0.82rem;
+}

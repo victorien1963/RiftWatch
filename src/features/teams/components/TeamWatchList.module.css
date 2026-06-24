@@ -1,0 +1,85 @@
+.list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.teamRow {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.7rem;
+  align-items: center;
+  padding: 0.85rem;
+  border: 1px solid var(--rw-border);
+  border-radius: var(--rw-radius);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.teamMain {
+  min-width: 0;
+}
+
+.teamTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.teamTitle strong {
+  overflow: hidden;
+  color: var(--rw-text);
+  font-size: 0.95rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.teamMain p {
+  margin: 0.25rem 0 0;
+  color: var(--rw-text-muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.metaLine {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 0.42rem;
+  color: var(--rw-text-soft);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.iconButton {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: var(--rw-gold);
+  text-decoration: none;
+}
+
+.iconButton:hover,
+.iconButton:focus-visible {
+  color: #ffe0a1;
+}
+
+.suggestions {
+  display: flex;
+  gap: 0.45rem;
+  overflow-x: auto;
+  padding-bottom: 0.1rem;
+}
+
+.suggestionButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  flex: 0 0 auto;
+  min-height: 2.55rem;
+  padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+  border-color: var(--rw-border-strong);
+  color: var(--rw-text);
+  background: rgba(255, 255, 255, 0.035);
+}

@@ -1,0 +1,6 @@
+.section {
+  padding: 0.95rem;
+  border: 1px solid var(--rw-border);
+  border-radius: var(--rw-radius);
+  background: rgba(16, 29, 49, 0.72);
+}

@@ -1,0 +1,24 @@
+.emptyState {
+  display: grid;
+  gap: 0.4rem;
+  justify-items: center;
+  padding: 1.4rem;
+  border: 1px dashed var(--rw-border-strong);
+  border-radius: var(--rw-radius);
+  color: var(--rw-text-muted);
+  text-align: center;
+}
+
+.emptyState i {
+  color: var(--rw-gold);
+  font-size: 1.35rem;
+}
+
+.emptyState strong {
+  color: var(--rw-text);
+}
+
+.emptyState span {
+  max-width: 18rem;
+  font-size: 0.86rem;
+}

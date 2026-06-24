@@ -1,0 +1,81 @@
+.hero {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--rw-border);
+  border-radius: var(--rw-radius);
+  background:
+    linear-gradient(135deg, rgba(86, 168, 255, 0.16), rgba(215, 181, 109, 0.08) 52%, transparent),
+    var(--rw-surface);
+  box-shadow: var(--rw-shadow);
+}
+
+.copy {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.date {
+  margin: 0;
+  color: var(--rw-gold);
+  font-size: 0.76rem;
+  font-weight: 850;
+}
+
+.copy h2 {
+  margin: 0;
+  color: var(--rw-text);
+  font-size: 1.45rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.copy p:last-child {
+  margin: 0;
+  color: var(--rw-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.statCard {
+  border-radius: var(--rw-radius-sm);
+  background: rgba(5, 11, 20, 0.3);
+}
+
+.statCard :global(.card-body) {
+  display: grid;
+  gap: 0.16rem;
+  min-height: 5.35rem;
+  padding: 0.72rem;
+}
+
+.statCard i {
+  color: var(--rw-gold);
+  font-size: 1rem;
+}
+
+.statCard strong {
+  color: var(--rw-text);
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.statCard span {
+  color: var(--rw-text-muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+@media (min-width: 620px) {
+  .hero {
+    grid-template-columns: 1fr 1.22fr;
+    align-items: end;
+  }
+}

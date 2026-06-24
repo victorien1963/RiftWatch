@@ -1,0 +1,60 @@
+.card {
+  border-radius: var(--rw-radius);
+  background:
+    linear-gradient(135deg, rgba(215, 181, 109, 0.1), transparent 46%),
+    rgba(16, 29, 49, 0.95);
+}
+
+.body {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.9rem;
+}
+
+.topLine {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.body h3 {
+  margin: 0;
+  color: var(--rw-text);
+  font-size: 0.98rem;
+  font-weight: 850;
+  letter-spacing: 0;
+}
+
+.body p {
+  margin: 0;
+  color: var(--rw-text-muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.changes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.34rem;
+}
+
+.changes > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding: 0.22rem 0.48rem 0.22rem 0.22rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.055);
+  color: var(--rw-text-soft);
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  color: var(--rw-text-muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
