@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import { matches as mockMatches } from '../mock/matches';
+import { getInitialMatches } from '../services/matchService';
 import type { Match } from '../types';
 
 type MatchState = {
@@ -20,7 +20,7 @@ const sortByScheduledAtAsc = (items: Match[]): Match[] =>
 export const useMatchStore = create<MatchState>()(
   persist(
     (_set, get) => ({
-      matches: mockMatches,
+      matches: getInitialMatches(),
       getUpcomingMatches: () =>
         sortByScheduledAtAsc(get().matches.filter((match) => match.status === 'upcoming')),
       getLiveMatches: () =>
@@ -36,6 +36,7 @@ export const useMatchStore = create<MatchState>()(
     }),
     {
       name: 'rift-watch-matches',
+      version: 1,
       storage: createJSONStorage(() => localStorage),
     },
   ),

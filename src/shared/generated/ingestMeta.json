@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-06-24T09:18:26.701Z",
+  "sources": [
+    {
+      "dataset": "news",
+      "label": "新聞資料",
+      "sourceName": "League of Legends 官方新聞",
+      "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/",
+      "status": "synced",
+      "recordCount": 24,
+      "generatedAt": "2026-06-24T09:18:26.701Z"
+    },
+    {
+      "dataset": "matches",
+      "label": "賽事資料",
+      "sourceName": "LoL Esports schedule",
+      "sourceUrl": "https://lolesports.com/schedule",
+      "status": "synced",
+      "recordCount": 78,
+      "generatedAt": "2026-06-24T09:18:25.492Z"
+    },
+    {
+      "dataset": "champions",
+      "label": "英雄資料",
+      "sourceName": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/data/zh_TW/champion.json",
+      "status": "synced",
+      "recordCount": 173,
+      "generatedAt": "2026-06-24T09:18:23.709Z"
+    },
+    {
+      "dataset": "metaTrends",
+      "label": "Meta 趨勢",
+      "sourceName": "Curated mock data",
+      "status": "mock",
+      "recordCount": 3,
+      "generatedAt": "2026-06-24T09:18:26.701Z"
+    },
+    {
+      "dataset": "patches",
+      "label": "版本重點",
+      "sourceName": "Curated mock data",
+      "status": "mock",
+      "recordCount": 1,
+      "generatedAt": "2026-06-24T09:18:26.701Z"
+    },
+    {
+      "dataset": "teams",
+      "label": "關注隊伍",
+      "sourceName": "Curated mock data",
+      "status": "mock",
+      "recordCount": 4,
+      "generatedAt": "2026-06-24T09:18:26.701Z"
+    }
+  ]
+}

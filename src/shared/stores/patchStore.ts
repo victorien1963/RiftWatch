@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import { patches as mockPatches } from '../mock/patches';
+import { getInitialPatches } from '../services/patchService';
 import type { PatchNote } from '../types';
 
 type PatchState = {
@@ -18,13 +18,14 @@ const sortByReleasedAtDesc = (items: PatchNote[]): PatchNote[] =>
 export const usePatchStore = create<PatchState>()(
   persist(
     (_set, get) => ({
-      patches: mockPatches,
+      patches: getInitialPatches(),
       getLatestPatch: () => sortByReleasedAtDesc(get().patches)[0],
       getHighImpactChanges: () =>
         sortByReleasedAtDesc(get().patches.filter((patch) => patch.impactLevel === 'high')),
     }),
     {
       name: 'rift-watch-patches',
+      version: 1,
       storage: createJSONStorage(() => localStorage),
     },
   ),

@@ -90,3 +90,44 @@ export type MetaTrend = {
   value: number;
   note: string;
 };
+
+export type ChampionCatalogItem = {
+  id: string;
+  key: string;
+  name: string;
+  title: string;
+  tags: string[];
+  imageUrl: string;
+  sourceUrl: string;
+  version: string;
+};
+
+export type DataDragonInfo = {
+  latestVersion: string;
+  language: string;
+  championCount: number;
+  generatedAt: string;
+  versions: string[];
+  sourceUrls: {
+    versions: string;
+    champions: string;
+  };
+};
+
+export type DataSourceStatusKind = 'synced' | 'fallback' | 'mock';
+
+export type IngestSourceStatus = {
+  dataset: string;
+  label: string;
+  sourceName: string;
+  sourceUrl?: string;
+  status: DataSourceStatusKind;
+  recordCount: number;
+  generatedAt: string;
+  errorMessage?: string;
+};
+
+export type IngestMetadata = {
+  generatedAt: string;
+  sources: IngestSourceStatus[];
+};

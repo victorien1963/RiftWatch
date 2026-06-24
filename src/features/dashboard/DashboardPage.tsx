@@ -1,7 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import { SectionHeader } from '../../shared/components/SectionHeader';
 import { useToday } from '../../shared/hooks/useToday';
-import { metaTrends } from '../../shared/mock/metaTrends';
+import { getIngestMetadata } from '../../shared/services/ingestMetadataService';
+import { getInitialMetaTrends } from '../../shared/services/metaTrendService';
 import { useMatchStore } from '../../shared/stores/matchStore';
 import { useNewsStore } from '../../shared/stores/newsStore';
 import { usePatchStore } from '../../shared/stores/patchStore';
@@ -9,6 +10,7 @@ import { getRelativeDayLabel } from '../../shared/utils/date';
 import { MatchSchedule } from '../matches/components/MatchSchedule';
 import { NewsList } from '../news/components/NewsList';
 import { PatchHighlights } from '../patches/components/PatchHighlights';
+import { DataSourceStatus } from './components/DataSourceStatus';
 import { MetaTrendCard } from './components/MetaTrendCard';
 import { TodayOverview } from './components/TodayOverview';
 import { WatchSection } from './components/WatchSection';
@@ -19,6 +21,8 @@ export const DashboardPage = () => {
   const news = useNewsStore((state) => state.news);
   const matches = useMatchStore((state) => state.matches);
   const patches = usePatchStore((state) => state.patches);
+  const metaTrends = getInitialMetaTrends();
+  const ingestMetadata = getIngestMetadata();
   const todaysMatches = matches.filter(
     (match) => getRelativeDayLabel(match.scheduledAt, today) === '今天',
   );
@@ -32,6 +36,11 @@ export const DashboardPage = () => {
         news={news}
         metaTrends={metaTrends}
       />
+
+      <section className={styles.section} aria-labelledby="sources-title">
+        <SectionHeader icon="bi-database-check" title="資料來源" titleId="sources-title" />
+        <DataSourceStatus metadata={ingestMetadata} />
+      </section>
 
       <section className={styles.section} aria-labelledby="matches-title">
         <SectionHeader

@@ -10,10 +10,21 @@ const shortDateFormatter = new Intl.DateTimeFormat('zh-TW', {
   weekday: 'short',
 });
 
+const dateTimeFormatter = new Intl.DateTimeFormat('zh-TW', {
+  month: '2-digit',
+  day: '2-digit',
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: false,
+});
+
 export const formatTime = (isoDate: string): string => timeFormatter.format(new Date(isoDate));
 
 export const formatShortDate = (isoDate: string): string =>
   shortDateFormatter.format(new Date(isoDate));
+
+export const formatDateTime = (isoDate: string): string =>
+  dateTimeFormatter.format(new Date(isoDate));
 
 export const getRelativeDayLabel = (isoDate: string, today: Date): string => {
   const target = new Date(isoDate);

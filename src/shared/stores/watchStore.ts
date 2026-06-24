@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import { teams as mockTeams } from '../mock/teams';
+import { getInitialTeams } from '../services/teamService';
 import type { Team } from '../types';
 
 type WatchState = {
@@ -12,7 +12,7 @@ type WatchState = {
 export const useWatchStore = create<WatchState>()(
   persist(
     (set, get) => ({
-      teams: mockTeams,
+      teams: getInitialTeams(),
       toggleWatchedTeam: (teamId) => {
         set((state) => ({
           teams: state.teams.map((team) =>

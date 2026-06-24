@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "match-115548128962906235-2026-04-25t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第4週",
+    "scheduledAt": "2026-04-25T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962906235/1",
+    "note": "LCK / 第4週"
+  },
+  {
+    "id": "match-115548128962840631-2026-04-26t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第4週",
+    "scheduledAt": "2026-04-26T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962840631/1",
+    "note": "LCK / 第4週"
+  },
+  {
+    "id": "match-115548128962906279-2026-04-26t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第4週",
+    "scheduledAt": "2026-04-26T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "teamB": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962906279/1",
+    "note": "LCK / 第4週"
+  },
+  {
+    "id": "match-115548128962840655-2026-04-29t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-04-29T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "teamB": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962840655/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128962840619-2026-04-29t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-04-29T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962840619/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128962906283-2026-04-30t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-04-30T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962906283/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128962840675-2026-04-30t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-04-30T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962840675/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128962906227-2026-05-01t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-05-01T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962906227/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128962906311-2026-05-01t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-05-01T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "teamB": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962906311/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128963037523-2026-05-02t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-05-02T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037523/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128963037559-2026-05-02t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-05-02T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "teamB": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037559/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128963037511-2026-05-03t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-05-03T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037511/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128962971915-2026-05-03t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第5週",
+    "scheduledAt": "2026-05-03T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971915/1",
+    "note": "LCK / 第5週"
+  },
+  {
+    "id": "match-115548128963037531-2026-05-06t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-06T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "teamB": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037531/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971855-2026-05-06t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-06T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "teamB": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971855/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128963037539-2026-05-07t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-07T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037539/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971919-2026-05-07t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-07T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971919/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971887-2026-05-08t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-08T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971887/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128963037535-2026-05-08t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-08T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037535/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971931-2026-05-09t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-09T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971931/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128963037515-2026-05-09t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-09T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "teamB": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037515/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971899-2026-05-10t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-10T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971899/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971879-2026-05-10t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第6週",
+    "scheduledAt": "2026-05-10T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "teamB": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971879/1",
+    "note": "LCK / 第6週"
+  },
+  {
+    "id": "match-115548128962971907-2026-05-13t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-13T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971907/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971951-2026-05-13t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-13T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971951/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971923-2026-05-14t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-14T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971923/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128963037555-2026-05-14t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-14T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "teamB": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037555/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971867-2026-05-15t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-15T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "teamB": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971867/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971943-2026-05-15t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-15T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971943/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971895-2026-05-16t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-16T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971895/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971935-2026-05-16t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-16T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971935/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971871-2026-05-17t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-17T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971871/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128963037519-2026-05-17t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第7週",
+    "scheduledAt": "2026-05-17T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037519/1",
+    "note": "LCK / 第7週"
+  },
+  {
+    "id": "match-115548128962971911-2026-05-20t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-20T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971911/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128963037551-2026-05-20t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-20T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "teamB": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037551/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962906315-2026-05-21t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-21T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962906315/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128963037507-2026-05-21t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-21T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037507/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962971963-2026-05-22t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-22T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971963/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128963037527-2026-05-22t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-22T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037527/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962971927-2026-05-23t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-23T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971927/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962971875-2026-05-23t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-23T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "teamB": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971875/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962971947-2026-05-24t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-24T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971947/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962971891-2026-05-24t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第8週",
+    "scheduledAt": "2026-05-24T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971891/1",
+    "note": "LCK / 第8週"
+  },
+  {
+    "id": "match-115548128962971863-2026-05-27t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-27T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971863/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128962971939-2026-05-27t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-27T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971939/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128962971959-2026-05-28t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-28T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "teamB": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "scoreA": 1,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971959/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128962971903-2026-05-28t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-28T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971903/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128963037547-2026-05-29t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-29T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-krx",
+      "name": "KIWOOM DRX",
+      "shortName": "KRX",
+      "logoEmoji": "KR"
+    },
+    "scoreA": 2,
+    "scoreB": 1,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037547/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128963037503-2026-05-29t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-29T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037503/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128962971955-2026-05-30t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-30T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "logoEmoji": "DN"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971955/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128962971883-2026-05-30t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-30T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-bfx",
+      "name": "BNK FEARX",
+      "shortName": "BFX",
+      "logoEmoji": "BF"
+    },
+    "teamB": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971883/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128962971859-2026-05-31t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-31T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 2,
+    "scoreB": 0,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128962971859/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128963037543-2026-05-31t10-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 第9週",
+    "scheduledAt": "2026-05-31T10:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-ns",
+      "name": "NONGSHIM RED FORCE",
+      "shortName": "NS",
+      "logoEmoji": "NS"
+    },
+    "teamB": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "scoreA": 0,
+    "scoreB": 2,
+    "bestOf": 3,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037543/1",
+    "note": "LCK / 第9週"
+  },
+  {
+    "id": "match-115548128963037563-2026-06-06t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 淘汰賽",
+    "scheduledAt": "2026-06-06T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "teamB": {
+      "id": "team-bro",
+      "name": "HANJIN BRION",
+      "shortName": "BRO",
+      "logoEmoji": "BR"
+    },
+    "scoreA": 3,
+    "scoreB": 0,
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037563/1",
+    "note": "LCK / 淘汰賽"
+  },
+  {
+    "id": "match-115548128963037569-2026-06-07t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 淘汰賽",
+    "scheduledAt": "2026-06-07T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "teamB": {
+      "id": "team-dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "logoEmoji": "DK"
+    },
+    "scoreA": 3,
+    "scoreB": 2,
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037569/1",
+    "note": "LCK / 淘汰賽"
+  },
+  {
+    "id": "match-115548128963037575-2026-06-12t08-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 淘汰賽",
+    "scheduledAt": "2026-06-12T08:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "logoEmoji": "🦅"
+    },
+    "teamB": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "scoreA": 3,
+    "scoreB": 1,
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037575/1",
+    "note": "LCK / 淘汰賽"
+  },
+  {
+    "id": "match-115548128963037581-2026-06-13t06-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 淘汰賽",
+    "scheduledAt": "2026-06-13T06:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "teamB": {
+      "id": "team-kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "logoEmoji": "⚡"
+    },
+    "scoreA": 3,
+    "scoreB": 0,
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037581/1",
+    "note": "LCK / 淘汰賽"
+  },
+  {
+    "id": "match-115548128963037587-2026-06-14t06-00-00z",
+    "league": "LCK",
+    "tournament": "LCK 淘汰賽",
+    "scheduledAt": "2026-06-14T06:00:00Z",
+    "status": "finished",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "logoEmoji": "👑"
+    },
+    "scoreA": 3,
+    "scoreB": 2,
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
+    "highlightUrl": "https://lolesports.com/vod/115548128963037587/1",
+    "note": "LCK / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614497-2026-06-28t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 入圍賽淘汰賽",
+    "scheduledAt": "2026-06-28T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-t1",
+      "name": "T1",
+      "shortName": "T1",
+      "logoEmoji": "⭐"
+    },
+    "teamB": {
+      "id": "team-tlaw",
+      "name": "Team Liquid Alienware",
+      "shortName": "TLAW",
+      "logoEmoji": "TL"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 入圍賽淘汰賽"
+  },
+  {
+    "id": "match-115570934355614503-2026-06-28t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 入圍賽淘汰賽",
+    "scheduledAt": "2026-06-28T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-kc",
+      "name": "Karmine Corp",
+      "shortName": "KC",
+      "logoEmoji": "KC"
+    },
+    "teamB": {
+      "id": "team-dcg",
+      "name": "Relove Deep Cross Gaming",
+      "shortName": "DCG",
+      "logoEmoji": "DC"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 入圍賽淘汰賽"
+  },
+  {
+    "id": "match-115570934355614509-2026-06-29t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 入圍賽淘汰賽",
+    "scheduledAt": "2026-06-29T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 入圍賽淘汰賽"
+  },
+  {
+    "id": "match-115846993721104369-2026-06-29t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 入圍賽淘汰賽",
+    "scheduledAt": "2026-06-29T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 入圍賽淘汰賽"
+  },
+  {
+    "id": "match-115570934355614521-2026-06-30t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 入圍賽淘汰賽",
+    "scheduledAt": "2026-06-30T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 入圍賽淘汰賽"
+  },
+  {
+    "id": "match-115570969745329263-2026-07-01t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 入圍賽淘汰賽",
+    "scheduledAt": "2026-07-01T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 入圍賽淘汰賽"
+  },
+  {
+    "id": "match-115570934355614527-2026-07-03t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-03T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614533-2026-07-03t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-03T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614539-2026-07-04t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-04T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614545-2026-07-04t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-04T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614563-2026-07-05t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-05T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614551-2026-07-05t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-05T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614569-2026-07-06t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-06T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614557-2026-07-06t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-06T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614581-2026-07-08t03-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-08T03:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614587-2026-07-08t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-08T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614575-2026-07-09t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-09T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614593-2026-07-10t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-10T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614599-2026-07-11t08-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 淘汰賽",
+    "scheduledAt": "2026-07-11T08:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 淘汰賽"
+  },
+  {
+    "id": "match-115570934355614605-2026-07-12t06-00-00z",
+    "league": "MSI",
+    "tournament": "MSI 決賽",
+    "scheduledAt": "2026-07-12T06:00:00Z",
+    "status": "upcoming",
+    "teamA": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "teamB": {
+      "id": "team-tbd",
+      "name": "TBD",
+      "shortName": "TBD",
+      "logoEmoji": "TB"
+    },
+    "bestOf": 5,
+    "streamUrl": "https://lolesports.com/schedule?leagues=msi",
+    "note": "MSI / 決賽"
+  }
+]

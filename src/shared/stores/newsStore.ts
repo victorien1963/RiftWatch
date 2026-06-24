@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import { news as mockNews } from '../mock/news';
+import { getInitialNews } from '../services/newsService';
 import type { NewsCategory, NewsItem } from '../types';
 
 type NewsState = {
@@ -23,7 +23,7 @@ const searchableText = (item: NewsItem): string =>
 export const useNewsStore = create<NewsState>()(
   persist(
     (_set, get) => ({
-      news: mockNews,
+      news: getInitialNews(),
       getLatestNews: (limit) => {
         const sortedNews = sortByPublishedAtDesc(get().news);
         return typeof limit === 'number' ? sortedNews.slice(0, limit) : sortedNews;
@@ -46,6 +46,7 @@ export const useNewsStore = create<NewsState>()(
     }),
     {
       name: 'rift-watch-news',
+      version: 1,
       storage: createJSONStorage(() => localStorage),
     },
   ),

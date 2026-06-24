@@ -1,0 +1,59 @@
+[
+  {
+    "id": "patch-14-12-jungle-tempo",
+    "version": "14.12",
+    "releasedAt": "2026-06-19T10:00:00+08:00",
+    "title": "野區節奏與控制法師回溫",
+    "summary": "版本提高前期路線規劃的重要性，中路控制法師與強開輔助同步受益。",
+    "championChanges": [
+      {
+        "championName": "李星",
+        "changeType": "adjust",
+        "summary": "前期清野節奏更依賴技能命中與路線選擇。",
+        "role": "jungle"
+      },
+      {
+        "championName": "阿祈爾",
+        "changeType": "buff",
+        "summary": "中期團戰輸出窗口更穩定。",
+        "role": "mid"
+      },
+      {
+        "championName": "凱特琳",
+        "changeType": "nerf",
+        "summary": "對線續航與換血容錯下降。",
+        "role": "bot"
+      },
+      {
+        "championName": "銳空",
+        "changeType": "buff",
+        "summary": "主動開戰價值提升，適合搭配前期控圖打法。",
+        "role": "support"
+      }
+    ],
+    "itemChanges": [
+      {
+        "itemName": "遺失的章節系裝備",
+        "changeType": "adjust",
+        "summary": "法師兩件套曲線更平滑，但爆發峰值延後。"
+      },
+      {
+        "itemName": "暴風之劍路線",
+        "changeType": "nerf",
+        "summary": "射手早期成形速度略降。"
+      }
+    ],
+    "systemChanges": [
+      {
+        "systemName": "野區經驗",
+        "summary": "前三輪野怪經驗微調，失誤路線更容易被反野懲罰。"
+      },
+      {
+        "systemName": "小龍刷新前視野",
+        "summary": "早期河道佈局收益提高，輔助與打野連動更重要。"
+      }
+    ],
+    "sourceUrl": "https://example.com/patch-notes/14-12",
+    "impactLevel": "high"
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "news-league-of-legends-26-13-2026-06-23t18-00-00-000z",
+    "title": "《英雄聯盟》26.13版本更新公告",
+    "summary": "絕不留惡魔活口。——洛克",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-13-notes",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-discord-x-riot-2026-06-18t18-30-00-000z",
+    "title": "Discord x Riot",
+    "summary": "連結你的帳號，就能查看有哪些Discord好友在線上，然後直接邀請他們同樂。你也可以複製自己的大廳邀請連結，分享到最愛的Discord伺服器！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.riotgames.com/integrating-with-discord",
+    "publishedAt": "2026-06-18T18:30:00.000Z",
+    "category": "other",
+    "tags": [
+      "公告"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-2026-msi-2026-06-15t12-00-00-000z",
+    "title": "2026 MSI季中邀請賽資訊全覽",
+    "summary": "季中邀請賽賽事詳情！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://lolesports.com/zh-tw/news/msi-2026-primer",
+    "publishedAt": "2026-06-15T12:00:00.000Z",
+    "category": "esports",
+    "tags": [
+      "電競"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-2026-2026-06-15t12-00-00-000z",
+    "title": "2026季中邀請賽賽制介紹",
+    "summary": "眾多隊伍已準備好在季中邀請賽喊出勝利宣言！本文將介紹今年的賽制詳情。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.youtube.com/watch?v=L-9GuyBRlqA",
+    "publishedAt": "2026-06-15T12:00:00.000Z",
+    "category": "esports",
+    "tags": [
+      "電競"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-2026-06-10t15-00-00-000z",
+    "title": "隨機單中：大混戰 - 增幅裝置大暴走！",
+    "summary": "隨機單中博士新增了超過50項混亂感十足的全新增幅裝置！快來看看更新內容，用強大的力量瘋個痛快！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://youtube.com/shorts/NsVoT44H3sA",
+    "publishedAt": "2026-06-10T15:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-26-12-2026-06-09t18-00-00-000z",
+    "title": "《英雄聯盟》26.12版本更新公告",
+    "summary": "第二賽季第二幕火熱開局",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-12-notes",
+    "publishedAt": "2026-06-09T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-2026-06-09t15-00-00-000z",
+    "title": "洛克英雄聚光燈",
+    "summary": "和死灰驅魔師洛克一起稱霸中路。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.youtube.com/watch?v=FYpnvzexSOQ",
+    "publishedAt": "2026-06-09T15:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-2026-06-08t15-00-00-000z",
+    "title": "洛克：英雄動畫 - 絕境歸來",
+    "summary": "洛克一生都在獵殺惡魔，但遭到附身的汎將會是他至今最嚴峻的挑戰。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.youtube.com/watch?v=r2JN6ZZ8IWc",
+    "publishedAt": "2026-06-08T15:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "媒體"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-2026-2026-05-28t17-30-00-000z",
+    "title": "歡慶2026年「繽紛色彩」！",
+    "summary": "與我們和社群一同歡慶「繽紛色彩」！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/community/celebrate-jubilant-colors-2026",
+    "publishedAt": "2026-05-28T17:30:00.000Z",
+    "category": "other",
+    "tags": [
+      "社群"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-5v5-2026-05-27t20-00-00-000z",
+    "title": "《開發新訊》：大混戰積分對戰5v5和其他資訊",
+    "summary": "Pabro、Meddler、Phlox和Cadmus來介紹「隨機單中：大混戰」、積分對戰5v5、造型、季中邀請賽和其他資訊。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.youtube.com/watch?v=E3H5wCxqkz8",
+    "publishedAt": "2026-05-27T20:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "開發幕後"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-2026-05-27t20-00-00-000z",
+    "title": "開發新訊懶人包",
+    "summary": "今日開發新訊的調整資訊摘要。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/dev/tldw-mayhem-ranked-5s-more-dev-update",
+    "publishedAt": "2026-05-27T20:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "開發幕後"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-2026-05-27t20-00-00-000z",
+    "title": "開發新訊：「隨機單中：大混戰」之極限增幅",
+    "summary": "更多混亂即將在26.12版本登場！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/dev/dev-augmentmaxxing-aram-mayhem",
+    "publishedAt": "2026-05-27T20:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "開發幕後"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-5v5-2026-05-27t20-00-00-000z",
+    "title": "開發新訊：積分對戰5v5回歸",
+    "summary": "開發新訊：積分對戰5v5回歸",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/dev/dev-the-return-of-ranked-5s",
+    "publishedAt": "2026-05-27T20:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "開發幕後"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-26-11-2026-05-27t18-00-00-000z",
+    "title": "26.11版本更新公告",
+    "summary": "（拍打版本更新公告）這裡究竟能塞進多少義大利麵呢？",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-11-notes",
+    "publishedAt": "2026-05-27T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-26-12-2026-05-27t17-15-00-000z",
+    "title": "26.12「尊爵不凡 罪惡海岸 勒布朗」造型揭曉",
+    "summary": "見證「尊爵不凡 罪惡海岸 勒布朗」以閃耀夏日裝扮登上PBE。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.youtube.com/watch?v=gxalEYTnwuE",
+    "publishedAt": "2026-05-27T17:15:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-26-10-2026-05-12t18-00-00-000z",
+    "title": "《英雄聯盟》26.10版本更新公告",
+    "summary": "26.10版本登場，群魔繼續亂舞！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-10-notes",
+    "publishedAt": "2026-05-12T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-2026-05-11t15-00-00-000z",
+    "title": "日月永恆星靈",
+    "summary": "太陽與月亮完美和諧。但這份和諧又能維持多久？",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.youtube.com/watch?v=OmhoOc8AMFY",
+    "publishedAt": "2026-05-11T15:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "媒體"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-ftw-2026-04-29t18-00-00-000z",
+    "title": "《英雄聯盟》FTW！",
+    "summary": "準備好迎接真正的挑戰了嗎？對戰、競爭、贏取獎勵吧！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://ftw.riotgames.com/league-of-legends/challenges/welcome-to-the-arena-creators",
+    "publishedAt": "2026-04-29T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-26-9-2026-04-28t18-00-00-000z",
+    "title": "《英雄聯盟》26.9版本更新公告",
+    "summary": "26.9版本震撼登場，一起來狩獵惡魔！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-9-notes",
+    "publishedAt": "2026-04-28T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-17-2-2026-04-28t18-00-00-000z",
+    "title": "開局奇遇、新祝福等眾多內容，將於《聯盟戰棋》17.2版本登場！",
+    "summary": "17.2 版本帶來開局奇遇和全新星神祝福選項，切莫錯過這場星界邂逅。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-17-2/",
+    "publishedAt": "2026-04-28T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-2026-04-14t18-00-00-000z",
+    "title": "開發新訊懶人包：群魔亂舞、競技場與其他開發新訊",
+    "summary": "今日開發新訊的調整資訊摘要。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/dev/tldw-pandemonium-arena-more-dev-update",
+    "publishedAt": "2026-04-14T18:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "開發幕後"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "news-league-of-legends-26-8-2026-04-14t18-00-00-000z",
+    "title": "《英雄聯盟》26.8版本更新公告",
+    "summary": "跟著26.8版本一起搖擺！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-8-notes",
+    "publishedAt": "2026-04-14T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-17-1-2026-04-14t18-00-00-000z",
+    "title": "《聯盟戰棋》17.1 版本",
+    "summary": "選擇星神、獲得祝福，並集結太空律動、仲裁者和米普星人，打造星際陣容！「星穹神話」現已登場！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-17-1/",
+    "publishedAt": "2026-04-14T18:00:00.000Z",
+    "category": "patch",
+    "tags": [
+      "遊戲更新",
+      "Patch"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "news-league-of-legends-wasd-2026-04-14t18-00-00-000z",
+    "title": "/開發新訊：WASD積分對戰上線",
+    "summary": "經過數個月的測試和回饋調整，WASD終於準備強勢登場了。",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/dev/dev-wasds-ranked-release",
+    "publishedAt": "2026-04-14T18:00:00.000Z",
+    "category": "other",
+    "tags": [
+      "開發幕後"
+    ],
+    "importance": "medium"
+  }
+]
