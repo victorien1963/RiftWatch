@@ -1,6 +1,7 @@
 .page {
   display: grid;
   gap: 0.9rem;
+  min-width: 0;
   padding: 0.95rem;
   border: 1px solid var(--rw-border);
   border-radius: var(--rw-radius);
@@ -26,6 +27,25 @@
 
 .filterBody :global(.form-control::placeholder) {
   color: var(--rw-text-muted);
+}
+
+.iconButton {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: var(--rw-text-soft);
+  text-decoration: none;
+}
+
+.iconButton:hover,
+.iconButton:focus-visible {
+  color: var(--rw-gold);
+}
+
+.iconButton :global(.bi) {
+  font-size: 1rem;
 }
 
 .tabs {
@@ -106,6 +126,11 @@
   justify-content: flex-end;
 }
 
+.tbdTeam {
+  color: var(--rw-text-muted);
+  opacity: 0.62;
+}
+
 .score {
   display: grid;
   justify-items: center;
@@ -120,6 +145,10 @@
   color: var(--rw-gold);
   font-size: 0.9rem;
   font-weight: 900;
+}
+
+.scoreHidden strong {
+  color: var(--rw-text-muted);
 }
 
 .score span {

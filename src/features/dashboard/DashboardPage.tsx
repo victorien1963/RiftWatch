@@ -12,16 +12,21 @@ import { NewsList } from '../news/components/NewsList';
 import { PatchHighlights } from '../patches/components/PatchHighlights';
 import { DataSourceStatus } from './components/DataSourceStatus';
 import { MetaTrendCard } from './components/MetaTrendCard';
+import { PlayerWatchStrip } from './components/PlayerWatchStrip';
 import { TodayOverview } from './components/TodayOverview';
 import { WatchSection } from './components/WatchSection';
 import styles from './DashboardPage.module.css';
+
+const roleOrder = ['top', 'jungle', 'mid', 'bot', 'support'];
 
 export const DashboardPage = () => {
   const today = useToday();
   const news = useNewsStore((state) => state.news);
   const matches = useMatchStore((state) => state.matches);
   const patches = usePatchStore((state) => state.patches);
-  const metaTrends = getInitialMetaTrends();
+  const metaTrends = getInitialMetaTrends().sort(
+    (trendA, trendB) => roleOrder.indexOf(trendA.role) - roleOrder.indexOf(trendB.role),
+  );
   const ingestMetadata = getIngestMetadata();
   const todaysMatches = matches.filter(
     (match) => getRelativeDayLabel(match.scheduledAt, today) === '今天',
@@ -37,12 +42,18 @@ export const DashboardPage = () => {
         metaTrends={metaTrends}
       />
 
-      <section className={styles.section} aria-labelledby="sources-title">
-        <SectionHeader icon="bi-database-check" title="資料來源" titleId="sources-title" />
-        <DataSourceStatus metadata={ingestMetadata} />
-      </section>
+      <div className={styles.playerWatchSection}>
+        <PlayerWatchStrip />
+      </div>
 
-      <section className={styles.section} aria-labelledby="matches-title">
+      <div className={styles.watchSection}>
+        <WatchSection />
+      </div>
+
+      <section
+        className={`${styles.section} ${styles.matchesSection}`}
+        aria-labelledby="matches-title"
+      >
         <SectionHeader
           icon="bi-calendar2-week"
           title="今日賽事"
@@ -56,26 +67,45 @@ export const DashboardPage = () => {
         <MatchSchedule matches={todaysMatches} />
       </section>
 
-      <section className={styles.section} aria-labelledby="patch-title">
-        <SectionHeader icon="bi-lightning-charge" title="版本重點" titleId="patch-title" />
-        <PatchHighlights patches={patches} />
-      </section>
+      <div className={styles.patchMetaRow}>
+        <section
+          className={`${styles.section} ${styles.patchSection}`}
+          aria-labelledby="patch-title"
+        >
+          <SectionHeader icon="bi-lightning-charge" title="版本重點" titleId="patch-title" />
+          <PatchHighlights patches={patches} />
+        </section>
 
-      <section className={styles.section} aria-labelledby="meta-title">
-        <SectionHeader icon="bi-graph-up-arrow" title="Meta 趨勢" titleId="meta-title" />
-        <div className={styles.metaGrid}>
-          {metaTrends.map((trend) => (
-            <MetaTrendCard trend={trend} key={trend.id} />
-          ))}
-        </div>
-      </section>
+        <section
+          className={`${styles.section} ${styles.metaSection}`}
+          aria-labelledby="meta-title"
+        >
+          <SectionHeader icon="bi-graph-up-arrow" title="Meta 趨勢" titleId="meta-title" />
+          <div className={styles.metaGrid}>
+            {metaTrends.map((trend) => (
+              <MetaTrendCard trend={trend} key={trend.id} />
+            ))}
+          </div>
+        </section>
+      </div>
 
-      <WatchSection />
+      <div className={styles.sourcesNewsRow}>
+        <section
+          className={`${styles.section} ${styles.sourcesSection}`}
+          aria-labelledby="sources-title"
+        >
+          <SectionHeader icon="bi-database-check" title="資料來源" titleId="sources-title" />
+          <DataSourceStatus metadata={ingestMetadata} />
+        </section>
 
-      <section className={styles.section} aria-labelledby="news-title">
-        <SectionHeader icon="bi-broadcast" title="重要新聞摘要" titleId="news-title" />
-        <NewsList news={news} />
-      </section>
+        <section
+          className={`${styles.section} ${styles.newsSection}`}
+          aria-labelledby="news-title"
+        >
+          <SectionHeader icon="bi-broadcast" title="重要新聞摘要" titleId="news-title" />
+          <NewsList news={news} />
+        </section>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react';
-import BsBadge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -8,7 +7,7 @@ import Tab from 'react-bootstrap/Tab';
 import { SectionHeader } from '../../shared/components/SectionHeader';
 import { useNewsStore } from '../../shared/stores/newsStore';
 import type { NewsCategory, NewsItem } from '../../shared/types';
-import { formatShortDate } from '../../shared/utils/date';
+import { NewsCard } from './components/NewsCard';
 import styles from './NewsPage.module.css';
 
 type CategoryFilter = 'all' | NewsCategory;
@@ -22,21 +21,6 @@ const categoryFilters: Array<{ key: CategoryFilter; label: string }> = [
   { key: 'rumor', label: '傳聞' },
   { key: 'other', label: '其他' },
 ];
-
-const categoryLabel: Record<NewsCategory, string> = {
-  esports: 'esports',
-  patch: 'patch',
-  roster: 'roster',
-  interview: 'interview',
-  rumor: 'rumor',
-  other: 'other',
-};
-
-const importanceVariant: Record<NewsItem['importance'], string> = {
-  low: 'secondary',
-  medium: 'info',
-  high: 'warning',
-};
 
 const sortByPublishedAtDesc = (items: NewsItem[]): NewsItem[] =>
   [...items].sort(
@@ -114,26 +98,7 @@ export const NewsPage = () => {
 
       <div className={styles.list}>
         {filteredNews.map((item) => (
-          <Card className={styles.newsCard} key={item.id}>
-            <Card.Body className={styles.cardBody}>
-              <div className={styles.metaLine}>
-                <BsBadge bg="primary">{categoryLabel[item.category]}</BsBadge>
-                <BsBadge bg={importanceVariant[item.importance]} text="dark">
-                  {item.importance}
-                </BsBadge>
-                <span>{formatShortDate(item.publishedAt)}</span>
-              </div>
-              <h2>{item.title}</h2>
-              <p>{item.summary}</p>
-              <div className={styles.tags}>
-                {item.tags.map((tag) => (
-                  <BsBadge bg="secondary" key={tag}>
-                    #{tag}
-                  </BsBadge>
-                ))}
-              </div>
-            </Card.Body>
-          </Card>
+          <NewsCard item={item} key={item.id} />
         ))}
       </div>
     </section>

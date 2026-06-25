@@ -37,19 +37,31 @@ export const PatchCard = ({ patch }: PatchCardProps) => (
       <h3>{patch.title}</h3>
       <p>{patch.summary}</p>
       <div className={styles.changes}>
-        {patch.championChanges.slice(0, 4).map((change) => (
-          <span key={change.championName}>
-            <Badge tone={changeTypeTone[change.changeType]}>
-              {changeTypeLabel[change.changeType]}
-            </Badge>
-            {change.championName}
-          </span>
-        ))}
+        {patch.championChanges.length > 0
+          ? patch.championChanges.slice(0, 4).map((change) => (
+              <span key={change.championName}>
+                <Badge tone={changeTypeTone[change.changeType]}>
+                  {changeTypeLabel[change.changeType]}
+                </Badge>
+                {change.championName}
+              </span>
+            ))
+          : patch.systemChanges.slice(0, 2).map((change) => (
+              <span key={change.systemName}>
+                <Badge tone="blue">公告</Badge>
+                {change.systemName}
+              </span>
+            ))}
       </div>
+      <a className={styles.sourceLink} href={patch.sourceUrl} target="_blank" rel="noreferrer">
+        查看官方版本公告
+      </a>
       <div className={styles.counts}>
-        <span>{patch.championChanges.length} champions</span>
-        <span>{patch.itemChanges.length} items</span>
-        <span>{patch.systemChanges.length} systems</span>
+        {patch.championChanges.length > 0 ? (
+          <span>{patch.championChanges.length} champions</span>
+        ) : null}
+        {patch.itemChanges.length > 0 ? <span>{patch.itemChanges.length} items</span> : null}
+        {patch.systemChanges.length > 0 ? <span>{patch.systemChanges.length} systems</span> : null}
       </div>
     </Card.Body>
   </Card>

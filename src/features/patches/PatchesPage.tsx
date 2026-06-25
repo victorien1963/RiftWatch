@@ -58,61 +58,81 @@ export const PatchesPage = () => {
               </div>
               <h2>{patch.title}</h2>
               <p>{patch.summary}</p>
+              <a
+                className={styles.sourceLink}
+                href={patch.sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                查看官方版本公告
+              </a>
 
-              <Accordion className={styles.accordion} flush>
-                <Accordion.Item eventKey="champions">
-                  <Accordion.Header>Champion Changes</Accordion.Header>
-                  <Accordion.Body>
-                    <div className={styles.changeList}>
-                      {patch.championChanges.map((change) => (
-                        <article className={styles.changeItem} key={change.championName}>
-                          <div>
-                            <strong>{change.championName}</strong>
-                            {change.role ? <span>{change.role}</span> : null}
-                          </div>
-                          <BsBadge bg={changeTypeVariant[change.changeType]}>
-                            {changeTypeLabel[change.changeType]}
-                          </BsBadge>
-                          <p>{change.summary}</p>
-                        </article>
-                      ))}
-                    </div>
-                  </Accordion.Body>
-                </Accordion.Item>
+              {patch.championChanges.length > 0 ||
+              patch.itemChanges.length > 0 ||
+              patch.systemChanges.some((change) => change.systemName !== '官方版本公告') ? (
+                <Accordion className={styles.accordion} flush>
+                  {patch.championChanges.length > 0 ? (
+                    <Accordion.Item eventKey="champions">
+                      <Accordion.Header>Champion Changes</Accordion.Header>
+                      <Accordion.Body>
+                        <div className={styles.changeList}>
+                          {patch.championChanges.map((change) => (
+                            <article className={styles.changeItem} key={change.championName}>
+                              <div>
+                                <strong>{change.championName}</strong>
+                                {change.role ? <span>{change.role}</span> : null}
+                              </div>
+                              <BsBadge bg={changeTypeVariant[change.changeType]}>
+                                {changeTypeLabel[change.changeType]}
+                              </BsBadge>
+                              <p>{change.summary}</p>
+                            </article>
+                          ))}
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  ) : null}
 
-                <Accordion.Item eventKey="items">
-                  <Accordion.Header>Item Changes</Accordion.Header>
-                  <Accordion.Body>
-                    <div className={styles.changeList}>
-                      {patch.itemChanges.map((change) => (
-                        <article className={styles.changeItem} key={change.itemName}>
-                          <div>
-                            <strong>{change.itemName}</strong>
-                          </div>
-                          <BsBadge bg={changeTypeVariant[change.changeType]}>
-                            {changeTypeLabel[change.changeType]}
-                          </BsBadge>
-                          <p>{change.summary}</p>
-                        </article>
-                      ))}
-                    </div>
-                  </Accordion.Body>
-                </Accordion.Item>
+                  {patch.itemChanges.length > 0 ? (
+                    <Accordion.Item eventKey="items">
+                      <Accordion.Header>Item Changes</Accordion.Header>
+                      <Accordion.Body>
+                        <div className={styles.changeList}>
+                          {patch.itemChanges.map((change) => (
+                            <article className={styles.changeItem} key={change.itemName}>
+                              <div>
+                                <strong>{change.itemName}</strong>
+                              </div>
+                              <BsBadge bg={changeTypeVariant[change.changeType]}>
+                                {changeTypeLabel[change.changeType]}
+                              </BsBadge>
+                              <p>{change.summary}</p>
+                            </article>
+                          ))}
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  ) : null}
 
-                <Accordion.Item eventKey="systems">
-                  <Accordion.Header>System Changes</Accordion.Header>
-                  <Accordion.Body>
-                    <div className={styles.changeList}>
-                      {patch.systemChanges.map((change) => (
-                        <article className={styles.systemItem} key={change.systemName}>
-                          <strong>{change.systemName}</strong>
-                          <p>{change.summary}</p>
-                        </article>
-                      ))}
-                    </div>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
+                  {patch.systemChanges.some((change) => change.systemName !== '官方版本公告') ? (
+                    <Accordion.Item eventKey="systems">
+                      <Accordion.Header>System Changes</Accordion.Header>
+                      <Accordion.Body>
+                        <div className={styles.changeList}>
+                          {patch.systemChanges
+                            .filter((change) => change.systemName !== '官方版本公告')
+                            .map((change) => (
+                              <article className={styles.systemItem} key={change.systemName}>
+                                <strong>{change.systemName}</strong>
+                                <p>{change.summary}</p>
+                              </article>
+                            ))}
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  ) : null}
+                </Accordion>
+              ) : null}
             </Card.Body>
           </Card>
         ))}

@@ -11,7 +11,10 @@ import type {
   DataDragonInfo,
   IngestMetadata,
   IngestSourceStatus,
+  NewsItem,
+  PatchNote,
 } from '../src/shared/types';
+import { createId } from '../src/shared/utils/id';
 import { normalizeLolEsportsMatches } from './normalizers/matchNormalizer';
 import { normalizeOfficialLolNews } from './normalizers/newsNormalizer';
 import { fetchLolEsportsSchedule } from './sources/matchSources';
@@ -93,16 +96,6 @@ const createStaticDatasets = (): DatasetBuildResult[] => [
       sourceName: 'Curated mock data',
       status: 'mock',
       recordCount: metaTrends.length,
-    }),
-  },
-  {
-    entry: ['patches', patches],
-    source: createSourceStatus({
-      dataset: 'patches',
-      label: '版本重點',
-      sourceName: 'Curated mock data',
-      status: 'mock',
-      recordCount: patches.length,
     }),
   },
   {
@@ -191,6 +184,70 @@ const createNewsDataset = async (): Promise<DatasetBuildResult> => {
       }),
     };
   }
+};
+
+const extractPatchVersion = (title: string): string | null => {
+  const versionMatch = title.match(/(\d+\.\d+)/);
+
+  return versionMatch?.[1] ?? null;
+};
+
+const isOfficialLolPatchNote = (item: NewsItem): boolean =>
+  item.category === 'patch' &&
+  item.title.includes('版本更新公告') &&
+  !item.title.includes('聯盟戰棋') &&
+  extractPatchVersion(item.title) !== null;
+
+const createPatchDatasetFromNews = (newsItems: NewsItem[]): DatasetBuildResult => {
+  const patchNotes: PatchNote[] = newsItems
+    .filter(isOfficialLolPatchNote)
+    .map((item) => {
+      const version = extractPatchVersion(item.title) ?? 'unknown';
+
+      return {
+        id: createId('patch', `${version}-${item.title}`),
+        version,
+        releasedAt: item.publishedAt,
+        title: item.title,
+        summary: item.summary,
+        championChanges: [],
+        itemChanges: [],
+        systemChanges: [
+          {
+            systemName: '官方版本公告',
+            summary: '完整英雄、裝備與系統改動請查看官方公告。',
+          },
+        ],
+        sourceUrl: item.sourceUrl,
+        impactLevel: 'high',
+      };
+    });
+
+  if (patchNotes.length === 0) {
+    return {
+      entry: ['patches', patches],
+      source: createSourceStatus({
+        dataset: 'patches',
+        label: '版本重點',
+        sourceName: 'Curated mock data',
+        status: 'fallback',
+        recordCount: patches.length,
+        errorMessage: 'No official League of Legends patch notes were found in news ingest.',
+      }),
+    };
+  }
+
+  return {
+    entry: ['patches', patchNotes],
+    source: createSourceStatus({
+      dataset: 'patches',
+      label: '版本重點',
+      sourceName: 'League of Legends 官方版本公告',
+      sourceUrl: 'https://www.leagueoflegends.com/zh-tw/news/tags/patch-notes/',
+      status: 'synced',
+      recordCount: patchNotes.length,
+    }),
+  };
 };
 
 const fetchDataDragonDatasets = async (): Promise<DataDragonBuildResult> => {
@@ -287,6 +344,7 @@ const ingest = async () => {
   const dataDragonResult = await createDataDragonDatasets();
   const matchDataset = await createMatchDataset();
   const newsDataset = await createNewsDataset();
+  const patchDataset = createPatchDatasetFromNews(newsDataset.entry[1] as NewsItem[]);
   const staticDatasets = createStaticDatasets();
   const metadata: IngestMetadata = {
     generatedAt: new Date().toISOString(),
@@ -294,6 +352,7 @@ const ingest = async () => {
       newsDataset.source,
       matchDataset.source,
       dataDragonResult.source,
+      patchDataset.source,
       ...staticDatasets.map((dataset) => dataset.source),
     ],
   };
@@ -301,6 +360,7 @@ const ingest = async () => {
     ...staticDatasets.map((dataset) => dataset.entry),
     matchDataset.entry,
     newsDataset.entry,
+    patchDataset.entry,
     ...dataDragonResult.entries,
     ['ingestMeta', metadata],
   ];

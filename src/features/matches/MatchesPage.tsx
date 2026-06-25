@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import BsBadge from 'react-bootstrap/Badge';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -9,6 +10,7 @@ import { SectionHeader } from '../../shared/components/SectionHeader';
 import { useMatchStore } from '../../shared/stores/matchStore';
 import type { Match, MatchStatus } from '../../shared/types';
 import { formatShortDate, formatTime } from '../../shared/utils/date';
+import { TeamLogo } from '../teams/components/TeamLogo';
 import styles from './MatchesPage.module.css';
 
 type StatusFilter = 'all' | MatchStatus;
@@ -56,9 +58,15 @@ const matchesTeamKeyword = (match: Match, keyword: string): boolean => {
     .includes(normalizedKeyword);
 };
 
-const formatScore = (match: Match): string => {
+const hasScore = (match: Match): boolean => match.scoreA !== undefined && match.scoreB !== undefined;
+
+const formatScore = (match: Match, scoresVisible: boolean): string => {
   if (match.scoreA === undefined || match.scoreB === undefined) {
     return 'vs';
+  }
+
+  if (!scoresVisible) {
+    return '- : -';
   }
 
   return `${match.scoreA} : ${match.scoreB}`;
@@ -67,6 +75,7 @@ const formatScore = (match: Match): string => {
 export const MatchesPage = () => {
   const matches = useMatchStore((state) => state.matches);
   const [activeStatus, setActiveStatus] = useState<StatusFilter>('all');
+  const [scoresVisible, setScoresVisible] = useState(false);
   const [teamKeyword, setTeamKeyword] = useState('');
 
   const filteredMatches = useMemo(
@@ -82,7 +91,24 @@ export const MatchesPage = () => {
 
   return (
     <section className={styles.page} aria-labelledby="matches-page-title">
-      <SectionHeader icon="bi-calendar2-week" title="賽事篩選" titleId="matches-page-title" />
+      <SectionHeader
+        icon="bi-calendar2-week"
+        title="賽事篩選"
+        titleId="matches-page-title"
+        action={
+          <Button
+            aria-label={scoresVisible ? '隱藏比數' : '顯示比數'}
+            aria-pressed={scoresVisible}
+            className={styles.iconButton}
+            title={scoresVisible ? '隱藏比數' : '顯示比數'}
+            type="button"
+            variant="link"
+            onClick={() => setScoresVisible((visible) => !visible)}
+          >
+            <i className={`bi ${scoresVisible ? 'bi-eye-slash' : 'bi-eye'}`} aria-hidden="true" />
+          </Button>
+        }
+      />
 
       <Card className={styles.filterCard}>
         <Card.Body className={styles.filterBody}>
@@ -111,42 +137,53 @@ export const MatchesPage = () => {
       </Tabs>
 
       <div className={styles.list}>
-        {filteredMatches.map((match) => (
-          <Card className={styles.matchCard} key={match.id}>
-            <Card.Body className={styles.cardBody}>
-              <div className={styles.topLine}>
-                <div className={styles.metaGroup}>
-                  <BsBadge bg="warning" text="dark">
-                    {match.league}
-                  </BsBadge>
-                  <BsBadge bg={statusVariant[match.status]}>{statusLabel[match.status]}</BsBadge>
-                  <span>BO{match.bestOf}</span>
-                </div>
-                <span>{formatShortDate(match.scheduledAt)}</span>
-              </div>
+        {filteredMatches.map((match) => {
+          const scoreHidden = hasScore(match) && !scoresVisible;
 
-              <div className={styles.matchup}>
-                <div className={styles.team}>
-                  <span aria-hidden="true">{match.teamA.logoEmoji}</span>
-                  <strong>{match.teamA.shortName}</strong>
+          return (
+            <Card className={styles.matchCard} key={match.id}>
+              <Card.Body className={styles.cardBody}>
+                <div className={styles.topLine}>
+                  <div className={styles.metaGroup}>
+                    <BsBadge bg="warning" text="dark">
+                      {match.league}
+                    </BsBadge>
+                    <BsBadge bg={statusVariant[match.status]}>{statusLabel[match.status]}</BsBadge>
+                    <span>BO{match.bestOf}</span>
+                  </div>
+                  <span>{formatShortDate(match.scheduledAt)}</span>
                 </div>
-                <div className={styles.score}>
-                  <strong>{formatScore(match)}</strong>
-                  <span>{formatTime(match.scheduledAt)}</span>
-                </div>
-                <div className={`${styles.team} ${styles.teamRight}`}>
-                  <strong>{match.teamB.shortName}</strong>
-                  <span aria-hidden="true">{match.teamB.logoEmoji}</span>
-                </div>
-              </div>
 
-              <div className={styles.footer}>
-                <span>{match.tournament}</span>
-                {match.note ? <span>{match.note}</span> : null}
-              </div>
-            </Card.Body>
-          </Card>
-        ))}
+                <div className={styles.matchup}>
+                  <div className={styles.team}>
+                    <TeamLogo team={match.teamA} size="sm" />
+                    <strong className={match.teamA.id === 'team-tbd' ? styles.tbdTeam : ''}>
+                      {match.teamA.shortName}
+                    </strong>
+                  </div>
+                  <div
+                    aria-label={scoreHidden ? '比數已隱藏' : `比數 ${formatScore(match, true)}`}
+                    className={`${styles.score} ${scoreHidden ? styles.scoreHidden : ''}`}
+                  >
+                    <strong>{formatScore(match, scoresVisible)}</strong>
+                    <span>{formatTime(match.scheduledAt)}</span>
+                  </div>
+                  <div className={`${styles.team} ${styles.teamRight}`}>
+                    <strong className={match.teamB.id === 'team-tbd' ? styles.tbdTeam : ''}>
+                      {match.teamB.shortName}
+                    </strong>
+                    <TeamLogo team={match.teamB} size="sm" />
+                  </div>
+                </div>
+
+                <div className={styles.footer}>
+                  <span>{match.tournament}</span>
+                  {match.note ? <span>{match.note}</span> : null}
+                </div>
+              </Card.Body>
+            </Card>
+          );
+        })}
       </div>
     </section>
   );

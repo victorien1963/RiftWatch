@@ -1,0 +1,25 @@
+.logo {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(202, 214, 232, 0.14);
+  border-radius: 999px;
+  background: rgba(5, 11, 20, 0.42);
+}
+
+.logo img {
+  width: 78%;
+  height: 78%;
+  object-fit: contain;
+}
+
+.sm {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.md {
+  width: 2.25rem;
+  height: 2.25rem;
+}

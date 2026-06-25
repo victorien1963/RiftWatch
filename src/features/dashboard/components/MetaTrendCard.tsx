@@ -28,11 +28,11 @@ const trendLabel: Record<MetaTrend['trend'], string> = {
 };
 
 const roleLabel: Record<MetaTrend['role'], string> = {
-  top: 'TOP',
-  jungle: 'JUG',
-  mid: 'MID',
-  bot: 'BOT',
-  support: 'SUP',
+  top: '上路',
+  jungle: '打野',
+  mid: '中路',
+  bot: '射手',
+  support: '輔助',
 };
 
 const createChartData = (trend: MetaTrend) => {
@@ -52,7 +52,7 @@ export const MetaTrendCard = ({ trend }: MetaTrendCardProps) => {
   return (
     <Card className={styles.card}>
       <Card.Body className={styles.body}>
-        <div className={styles.header}>
+        <div className={styles.summary}>
           <div>
             <Badge tone="blue">{roleLabel[trend.role]}</Badge>
             <h3>{trend.label}</h3>

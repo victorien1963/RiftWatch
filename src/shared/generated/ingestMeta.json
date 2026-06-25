@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T09:18:26.701Z",
+  "generatedAt": "2026-06-25T06:44:39.435Z",
   "sources": [
     {
       "dataset": "news",
@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/",
       "status": "synced",
       "recordCount": 24,
-      "generatedAt": "2026-06-24T09:18:26.701Z"
+      "generatedAt": "2026-06-25T06:44:39.434Z"
     },
     {
       "dataset": "matches",
@@ -16,8 +16,8 @@
       "sourceName": "LoL Esports schedule",
       "sourceUrl": "https://lolesports.com/schedule",
       "status": "synced",
-      "recordCount": 78,
-      "generatedAt": "2026-06-24T09:18:25.492Z"
+      "recordCount": 77,
+      "generatedAt": "2026-06-25T06:44:38.360Z"
     },
     {
       "dataset": "champions",
@@ -26,23 +26,24 @@
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/data/zh_TW/champion.json",
       "status": "synced",
       "recordCount": 173,
-      "generatedAt": "2026-06-24T09:18:23.709Z"
+      "generatedAt": "2026-06-25T06:44:37.303Z"
+    },
+    {
+      "dataset": "patches",
+      "label": "版本重點",
+      "sourceName": "League of Legends 官方版本公告",
+      "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/tags/patch-notes/",
+      "status": "synced",
+      "recordCount": 6,
+      "generatedAt": "2026-06-25T06:44:39.435Z"
     },
     {
       "dataset": "metaTrends",
       "label": "Meta 趨勢",
       "sourceName": "Curated mock data",
       "status": "mock",
-      "recordCount": 3,
-      "generatedAt": "2026-06-24T09:18:26.701Z"
-    },
-    {
-      "dataset": "patches",
-      "label": "版本重點",
-      "sourceName": "Curated mock data",
-      "status": "mock",
-      "recordCount": 1,
-      "generatedAt": "2026-06-24T09:18:26.701Z"
+      "recordCount": 5,
+      "generatedAt": "2026-06-25T06:44:39.435Z"
     },
     {
       "dataset": "teams",
@@ -50,7 +51,7 @@
       "sourceName": "Curated mock data",
       "status": "mock",
       "recordCount": 4,
-      "generatedAt": "2026-06-24T09:18:26.701Z"
+      "generatedAt": "2026-06-25T06:44:39.435Z"
     }
   ]
 }

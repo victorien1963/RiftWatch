@@ -1,7 +1,10 @@
 .emptyState {
   display: grid;
+  place-content: center;
   gap: 0.4rem;
   justify-items: center;
+  height: 100%;
+  min-height: 9rem;
   padding: 1.4rem;
   border: 1px dashed var(--rw-border-strong);
   border-radius: var(--rw-radius);

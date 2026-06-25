@@ -1,30 +1,5 @@
 [
   {
-    "id": "match-115548128962906235-2026-04-25t10-00-00z",
-    "league": "LCK",
-    "tournament": "LCK 第4週",
-    "scheduledAt": "2026-04-25T10:00:00Z",
-    "status": "finished",
-    "teamA": {
-      "id": "team-dk",
-      "name": "Dplus KIA",
-      "shortName": "DK",
-      "logoEmoji": "DK"
-    },
-    "teamB": {
-      "id": "team-dns",
-      "name": "DN SOOPers",
-      "shortName": "DNS",
-      "logoEmoji": "DN"
-    },
-    "scoreA": 2,
-    "scoreB": 0,
-    "bestOf": 3,
-    "streamUrl": "https://lolesports.com/schedule?leagues=lck",
-    "highlightUrl": "https://lolesports.com/vod/115548128962906235/1",
-    "note": "LCK / 第4週"
-  },
-  {
     "id": "match-115548128962840631-2026-04-26t08-00-00z",
     "league": "LCK",
     "tournament": "LCK 第4週",

@@ -24,9 +24,7 @@ export const TodayOverview = ({
   return (
     <section className={styles.hero} aria-labelledby="today-overview-title">
       <div className={styles.copy}>
-        <p className={styles.date}>{formatShortDate(today.toISOString())}</p>
-        <h2 id="today-overview-title">今日峽谷觀測</h2>
-        <p>快速掃描賽事、版本、隊伍動態與 Meta 走向。</p>
+        <h2 className={styles.date}>{formatShortDate(today.toISOString())}</h2>
       </div>
 
       <div className={styles.grid}>

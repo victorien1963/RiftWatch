@@ -1,13 +1,55 @@
 .page {
   display: grid;
   gap: 1rem;
+  align-items: stretch;
+  min-width: 0;
 }
 
 .section {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  align-content: stretch;
+  height: 100%;
+  min-width: 0;
   padding: 0.95rem;
   border: 1px solid var(--rw-border);
   border-radius: var(--rw-radius);
   background: rgba(16, 29, 49, 0.72);
+}
+
+.section > :last-child {
+  min-height: 0;
+  height: 100%;
+}
+
+.newsSection {
+  overflow: hidden;
+}
+
+.newsSection > :last-child {
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.patchSection {
+  overflow: hidden;
+}
+
+.patchSection > :last-child {
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.sourcesNewsRow {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.patchMetaRow {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
 }
 
 .metaGrid {
@@ -32,6 +74,87 @@
 
 @media (min-width: 680px) {
   .metaGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .page > :first-child,
+  .playerWatchSection,
+  .matchesSection,
+  .patchMetaRow,
+  .sourcesNewsRow {
+    grid-column: 1 / -1;
+  }
+
+  .sourcesSection,
+  .watchSection {
+    grid-column: span 4;
+  }
+
+  .watchSection {
+    display: grid;
+    height: 100%;
+    min-width: 0;
+  }
+
+  .watchSection > * {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1320px) {
+  .watchSection {
+    grid-column: 1 / span 4;
+  }
+
+  .playerWatchSection {
+    grid-column: 1 / -1;
+  }
+
+  .matchesSection {
+    grid-column: 5 / -1;
+  }
+
+  .patchMetaRow {
+    position: relative;
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 1rem;
+  }
+
+  .metaSection {
+    grid-column: 2;
+  }
+
+  .patchSection {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: calc((100% - 1rem) / 3);
+  }
+
+  .sourcesNewsRow {
+    position: relative;
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 1rem;
+  }
+
+  .sourcesSection {
+    grid-column: 1;
+  }
+
+  .newsSection {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: calc((100% - 1rem) * 2 / 3);
   }
 }

@@ -44,6 +44,7 @@
 }
 
 .statCard {
+  height: 100%;
   border-radius: var(--rw-radius-sm);
   background: rgba(5, 11, 20, 0.3);
 }
@@ -51,6 +52,8 @@
 .statCard :global(.card-body) {
   display: grid;
   gap: 0.16rem;
+  height: 100%;
+  align-content: start;
   min-height: 5.35rem;
   padding: 0.72rem;
 }
@@ -76,6 +79,17 @@
 @media (min-width: 620px) {
   .hero {
     grid-template-columns: 1fr 1.22fr;
-    align-items: end;
+    align-items: stretch;
+  }
+}
+
+@media (min-width: 1120px) {
+  .hero {
+    grid-template-columns: minmax(17rem, 0.72fr) minmax(0, 1.28fr);
+    padding: 1.1rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

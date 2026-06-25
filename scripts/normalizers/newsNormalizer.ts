@@ -68,6 +68,14 @@ const inferTags = (article: RiotNewsArticle, category: NewsCategory): string[] =
     tags.add('Patch');
   }
 
+  if (/造型|skin/i.test(content)) {
+    tags.add('造型');
+  }
+
+  if (/冠軍造型|世界大賽冠軍造型|worlds skin/i.test(content)) {
+    tags.add('冠軍造型');
+  }
+
   return Array.from(tags);
 };
 

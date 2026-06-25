@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { getInitialPatches } from '../services/patchService';
 import type { PatchNote } from '../types';
 
@@ -15,18 +14,9 @@ const sortByReleasedAtDesc = (items: PatchNote[]): PatchNote[] =>
       new Date(patchB.releasedAt).getTime() - new Date(patchA.releasedAt).getTime(),
   );
 
-export const usePatchStore = create<PatchState>()(
-  persist(
-    (_set, get) => ({
-      patches: getInitialPatches(),
-      getLatestPatch: () => sortByReleasedAtDesc(get().patches)[0],
-      getHighImpactChanges: () =>
-        sortByReleasedAtDesc(get().patches.filter((patch) => patch.impactLevel === 'high')),
-    }),
-    {
-      name: 'rift-watch-patches',
-      version: 1,
-      storage: createJSONStorage(() => localStorage),
-    },
-  ),
-);
+export const usePatchStore = create<PatchState>()((_set, get) => ({
+  patches: getInitialPatches(),
+  getLatestPatch: () => sortByReleasedAtDesc(get().patches)[0],
+  getHighImpactChanges: () =>
+    sortByReleasedAtDesc(get().patches.filter((patch) => patch.impactLevel === 'high')),
+}));

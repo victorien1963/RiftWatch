@@ -51,6 +51,11 @@
   justify-content: flex-end;
 }
 
+.tbdTeam {
+  color: var(--rw-text-muted);
+  opacity: 0.62;
+}
+
 .time {
   display: inline-flex;
   align-items: center;

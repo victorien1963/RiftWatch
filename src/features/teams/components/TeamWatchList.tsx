@@ -36,7 +36,6 @@ export const TeamWatchList = () => {
                 {team.shortName} 目前列在 LCK 觀測池，後續可接 API 回填近期戰績、選手與賽程。
               </p>
               <div className={styles.metaLine}>
-                <span>{team.logoEmoji}</span>
                 <span>{team.shortName}</span>
               </div>
             </div>
@@ -65,7 +64,6 @@ export const TeamWatchList = () => {
               onClick={() => toggleWatchedTeam(team.id)}
             >
               <TeamBadge team={team} size="sm" />
-              <span>{team.shortName}</span>
               <i className="bi bi-plus-lg" aria-hidden="true" />
             </Button>
           ))}

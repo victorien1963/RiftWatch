@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import { Badge } from '../../../shared/components/Badge';
 import { formatTime } from '../../../shared/utils/date';
-import { TeamBadge } from '../../teams/components/TeamBadge';
+import { TeamLogo } from '../../teams/components/TeamLogo';
 import type { Match } from '../types';
 import styles from './MatchCard.module.css';
 
@@ -35,8 +35,10 @@ export const MatchCard = ({ match }: MatchCardProps) => (
 
       <div className={styles.matchup}>
         <div className={styles.team}>
-          <TeamBadge team={match.teamA} size="sm" />
-          <strong>{match.teamA.shortName}</strong>
+          <TeamLogo team={match.teamA} size="sm" />
+          <strong className={match.teamA.id === 'team-tbd' ? styles.tbdTeam : ''}>
+            {match.teamA.shortName}
+          </strong>
         </div>
         <div className={styles.time}>
           <i className="bi bi-clock" aria-hidden="true" />
@@ -45,8 +47,10 @@ export const MatchCard = ({ match }: MatchCardProps) => (
             : formatTime(match.scheduledAt)}
         </div>
         <div className={`${styles.team} ${styles.right}`}>
-          <strong>{match.teamB.shortName}</strong>
-          <TeamBadge team={match.teamB} size="sm" />
+          <strong className={match.teamB.id === 'team-tbd' ? styles.tbdTeam : ''}>
+            {match.teamB.shortName}
+          </strong>
+          <TeamLogo team={match.teamB} size="sm" />
         </div>
       </div>
 

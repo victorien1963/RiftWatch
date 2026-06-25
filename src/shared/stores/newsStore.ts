@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { getInitialNews } from '../services/newsService';
 import type { NewsCategory, NewsItem } from '../types';
 
@@ -20,34 +19,25 @@ const sortByPublishedAtDesc = (items: NewsItem[]): NewsItem[] =>
 const searchableText = (item: NewsItem): string =>
   [item.title, item.summary, ...item.tags].join(' ').toLowerCase();
 
-export const useNewsStore = create<NewsState>()(
-  persist(
-    (_set, get) => ({
-      news: getInitialNews(),
-      getLatestNews: (limit) => {
-        const sortedNews = sortByPublishedAtDesc(get().news);
-        return typeof limit === 'number' ? sortedNews.slice(0, limit) : sortedNews;
-      },
-      getImportantNews: () =>
-        sortByPublishedAtDesc(get().news.filter((item) => item.importance === 'high')),
-      filterNewsByCategory: (category) =>
-        sortByPublishedAtDesc(get().news.filter((item) => item.category === category)),
-      searchNews: (query) => {
-        const normalizedQuery = query.trim().toLowerCase();
+export const useNewsStore = create<NewsState>()((_set, get) => ({
+  news: getInitialNews(),
+  getLatestNews: (limit) => {
+    const sortedNews = sortByPublishedAtDesc(get().news);
+    return typeof limit === 'number' ? sortedNews.slice(0, limit) : sortedNews;
+  },
+  getImportantNews: () =>
+    sortByPublishedAtDesc(get().news.filter((item) => item.importance === 'high')),
+  filterNewsByCategory: (category) =>
+    sortByPublishedAtDesc(get().news.filter((item) => item.category === category)),
+  searchNews: (query) => {
+    const normalizedQuery = query.trim().toLowerCase();
 
-        if (!normalizedQuery) {
-          return sortByPublishedAtDesc(get().news);
-        }
+    if (!normalizedQuery) {
+      return sortByPublishedAtDesc(get().news);
+    }
 
-        return sortByPublishedAtDesc(
-          get().news.filter((item) => searchableText(item).includes(normalizedQuery)),
-        );
-      },
-    }),
-    {
-      name: 'rift-watch-news',
-      version: 1,
-      storage: createJSONStorage(() => localStorage),
-    },
-  ),
-);
+    return sortByPublishedAtDesc(
+      get().news.filter((item) => searchableText(item).includes(normalizedQuery)),
+    );
+  },
+}));

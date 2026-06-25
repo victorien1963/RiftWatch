@@ -1,5 +1,18 @@
 [
   {
+    "id": "news-league-of-legends-2026-2026-06-25t02-07-19z",
+    "title": "台北車站集合！2026《英雄聯盟》季中邀請賽觀賽派對 舉辦預告",
+    "summary": "2026《英雄聯盟》季中邀請賽觀賽派對暨粉絲慶典，將於台北車站大廳盛大登場！",
+    "sourceName": "League of Legends 官方新聞",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/community/2026-MSIWatchparty",
+    "publishedAt": "2026-06-25T02:07:19Z",
+    "category": "other",
+    "tags": [
+      "社群"
+    ],
+    "importance": "medium"
+  },
+  {
     "id": "news-league-of-legends-26-13-2026-06-23t18-00-00-000z",
     "title": "《英雄聯盟》26.13版本更新公告",
     "summary": "絕不留惡魔活口。——洛克",
@@ -129,7 +142,8 @@
     "publishedAt": "2026-05-27T20:00:00.000Z",
     "category": "other",
     "tags": [
-      "開發幕後"
+      "開發幕後",
+      "造型"
     ],
     "importance": "medium"
   },
@@ -196,7 +210,8 @@
     "category": "patch",
     "tags": [
       "遊戲更新",
-      "Patch"
+      "Patch",
+      "造型"
     ],
     "importance": "high"
   },
@@ -309,18 +324,5 @@
       "Patch"
     ],
     "importance": "high"
-  },
-  {
-    "id": "news-league-of-legends-wasd-2026-04-14t18-00-00-000z",
-    "title": "/開發新訊：WASD積分對戰上線",
-    "summary": "經過數個月的測試和回饋調整，WASD終於準備強勢登場了。",
-    "sourceName": "League of Legends 官方新聞",
-    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/dev/dev-wasds-ranked-release",
-    "publishedAt": "2026-04-14T18:00:00.000Z",
-    "category": "other",
-    "tags": [
-      "開發幕後"
-    ],
-    "importance": "medium"
   }
 ]

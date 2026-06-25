@@ -2,20 +2,12 @@ import type { MetaTrend } from '../types';
 
 export const metaTrends: MetaTrend[] = [
   {
-    id: 'meta-control-mages',
-    label: '控制法師',
-    role: 'mid',
-    trend: 'rising',
-    value: 82,
-    note: 'Faker 與 Chovy 常用的控制法師出場率上升，河道視野交換更關鍵。',
-  },
-  {
-    id: 'meta-engage-supports',
-    label: '強開輔助',
-    role: 'support',
-    trend: 'rising',
-    value: 76,
-    note: 'Keria 類型的主動開戰輔助更容易在前期建立小龍區優勢。',
+    id: 'meta-side-lane-bruisers',
+    label: '邊線鬥士',
+    role: 'top',
+    trend: 'stable',
+    value: 71,
+    note: '上路仍以能單帶與前排開戰的鬥士為主，換線後的邊線處理更吃重。',
   },
   {
     id: 'meta-tempo-junglers',
@@ -24,5 +16,29 @@ export const metaTrends: MetaTrend[] = [
     trend: 'stable',
     value: 69,
     note: 'Oner 常用的前期節奏角仍具價值，但容錯比上版本更低。',
+  },
+  {
+    id: 'meta-control-mages',
+    label: '控制法師',
+    role: 'mid',
+    trend: 'rising',
+    value: 82,
+    note: 'Faker 與 Chovy 常用的控制法師出場率上升，河道視野交換更關鍵。',
+  },
+  {
+    id: 'meta-scaling-marksmen',
+    label: '後期射手',
+    role: 'bot',
+    trend: 'rising',
+    value: 74,
+    note: '射手位更重視三件套後的團戰輸出，前期線權會交給輔助與打野補足。',
+  },
+  {
+    id: 'meta-engage-supports',
+    label: '強開輔助',
+    role: 'support',
+    trend: 'rising',
+    value: 76,
+    note: 'Keria 類型的主動開戰輔助更容易在前期建立小龍區優勢。',
   },
 ];

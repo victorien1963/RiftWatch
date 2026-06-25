@@ -1,59 +1,104 @@
 [
   {
-    "id": "patch-14-12-jungle-tempo",
-    "version": "14.12",
-    "releasedAt": "2026-06-19T10:00:00+08:00",
-    "title": "野區節奏與控制法師回溫",
-    "summary": "版本提高前期路線規劃的重要性，中路控制法師與強開輔助同步受益。",
-    "championChanges": [
-      {
-        "championName": "李星",
-        "changeType": "adjust",
-        "summary": "前期清野節奏更依賴技能命中與路線選擇。",
-        "role": "jungle"
-      },
-      {
-        "championName": "阿祈爾",
-        "changeType": "buff",
-        "summary": "中期團戰輸出窗口更穩定。",
-        "role": "mid"
-      },
-      {
-        "championName": "凱特琳",
-        "changeType": "nerf",
-        "summary": "對線續航與換血容錯下降。",
-        "role": "bot"
-      },
-      {
-        "championName": "銳空",
-        "changeType": "buff",
-        "summary": "主動開戰價值提升，適合搭配前期控圖打法。",
-        "role": "support"
-      }
-    ],
-    "itemChanges": [
-      {
-        "itemName": "遺失的章節系裝備",
-        "changeType": "adjust",
-        "summary": "法師兩件套曲線更平滑，但爆發峰值延後。"
-      },
-      {
-        "itemName": "暴風之劍路線",
-        "changeType": "nerf",
-        "summary": "射手早期成形速度略降。"
-      }
-    ],
+    "id": "patch-26-13-26-13",
+    "version": "26.13",
+    "releasedAt": "2026-06-23T18:00:00.000Z",
+    "title": "《英雄聯盟》26.13版本更新公告",
+    "summary": "絕不留惡魔活口。——洛克",
+    "championChanges": [],
+    "itemChanges": [],
     "systemChanges": [
       {
-        "systemName": "野區經驗",
-        "summary": "前三輪野怪經驗微調，失誤路線更容易被反野懲罰。"
-      },
-      {
-        "systemName": "小龍刷新前視野",
-        "summary": "早期河道佈局收益提高，輔助與打野連動更重要。"
+        "systemName": "官方版本公告",
+        "summary": "完整英雄、裝備與系統改動請查看官方公告。"
       }
     ],
-    "sourceUrl": "https://example.com/patch-notes/14-12",
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-13-notes",
+    "impactLevel": "high"
+  },
+  {
+    "id": "patch-26-12-26-12",
+    "version": "26.12",
+    "releasedAt": "2026-06-09T18:00:00.000Z",
+    "title": "《英雄聯盟》26.12版本更新公告",
+    "summary": "第二賽季第二幕火熱開局",
+    "championChanges": [],
+    "itemChanges": [],
+    "systemChanges": [
+      {
+        "systemName": "官方版本公告",
+        "summary": "完整英雄、裝備與系統改動請查看官方公告。"
+      }
+    ],
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-12-notes",
+    "impactLevel": "high"
+  },
+  {
+    "id": "patch-26-11-26-11",
+    "version": "26.11",
+    "releasedAt": "2026-05-27T18:00:00.000Z",
+    "title": "26.11版本更新公告",
+    "summary": "（拍打版本更新公告）這裡究竟能塞進多少義大利麵呢？",
+    "championChanges": [],
+    "itemChanges": [],
+    "systemChanges": [
+      {
+        "systemName": "官方版本公告",
+        "summary": "完整英雄、裝備與系統改動請查看官方公告。"
+      }
+    ],
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-11-notes",
+    "impactLevel": "high"
+  },
+  {
+    "id": "patch-26-10-26-10",
+    "version": "26.10",
+    "releasedAt": "2026-05-12T18:00:00.000Z",
+    "title": "《英雄聯盟》26.10版本更新公告",
+    "summary": "26.10版本登場，群魔繼續亂舞！",
+    "championChanges": [],
+    "itemChanges": [],
+    "systemChanges": [
+      {
+        "systemName": "官方版本公告",
+        "summary": "完整英雄、裝備與系統改動請查看官方公告。"
+      }
+    ],
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-10-notes",
+    "impactLevel": "high"
+  },
+  {
+    "id": "patch-26-9-26-9",
+    "version": "26.9",
+    "releasedAt": "2026-04-28T18:00:00.000Z",
+    "title": "《英雄聯盟》26.9版本更新公告",
+    "summary": "26.9版本震撼登場，一起來狩獵惡魔！",
+    "championChanges": [],
+    "itemChanges": [],
+    "systemChanges": [
+      {
+        "systemName": "官方版本公告",
+        "summary": "完整英雄、裝備與系統改動請查看官方公告。"
+      }
+    ],
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-9-notes",
+    "impactLevel": "high"
+  },
+  {
+    "id": "patch-26-8-26-8",
+    "version": "26.8",
+    "releasedAt": "2026-04-14T18:00:00.000Z",
+    "title": "《英雄聯盟》26.8版本更新公告",
+    "summary": "跟著26.8版本一起搖擺！",
+    "championChanges": [],
+    "itemChanges": [],
+    "systemChanges": [
+      {
+        "systemName": "官方版本公告",
+        "summary": "完整英雄、裝備與系統改動請查看官方公告。"
+      }
+    ],
+    "sourceUrl": "https://www.leagueoflegends.com/zh-tw/news/game-updates/league-of-legends-patch-26-8-notes",
     "impactLevel": "high"
   }
 ]
